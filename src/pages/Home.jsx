@@ -1,9 +1,9 @@
-import styles from "./style"
-import Navbar from "./components/Navbar"
+import styles from "../style"
+import Navbar from "../components/Navbar"
 
 import { HeroSection, Footer, HowItWorks} from "./components"
 
-const App = () => (
+const Home = () => (
   <div className='w-full overflow-hidden bg-white'>
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
@@ -35,4 +35,4 @@ const App = () => (
 )
 
 
-export default App
+export default Home
