@@ -1,7 +1,7 @@
 import styles from "./style"
 import Navbar from "./components/Navbar"
 
-import { HeroSection, Footer, HowItWorks} from "./components"
+import { HeroSection, Footer, HowItWorks, SearchPage} from "./components"
 
 
 const App = () => (
@@ -27,6 +27,12 @@ const App = () => (
     <div className={`bg-white ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Footer/>
+        </div>
+    </div>
+
+    <div className={`bg-white ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+          <SearchPage/>
         </div>
     </div>
     
