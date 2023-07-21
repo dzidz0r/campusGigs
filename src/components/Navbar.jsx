@@ -1,8 +1,10 @@
 import Button from "./Button"
 import Logo from "./Logo"
+import { Link } from 'react-router-dom'
 
 const Navbar = () =>  (
-    <nav className=" w-full flex py-3 justify between items-center navbar">
+    <Link to='/' className="no-underline">
+        <nav className=" w-full flex py-3 justify between items-center navbar">
         <div className=" w-full flex justify-between">
             <div><Logo /></div>
             <div className="top-[10px] rounded-[50px] bg-black 
@@ -12,9 +14,8 @@ const Navbar = () =>  (
             </div>
         </div>
         
-        
-       {/* <div className="absolute bg-thistle top-[60px] left-[0px] w-screen h-1 overflow-hidden"></div> */}
     </nav>
+    </Link>
   )
 
 

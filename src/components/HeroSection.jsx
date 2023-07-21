@@ -20,7 +20,7 @@ const HeroSection = () =>
         </p>
 
         
-        <Link to="/search">
+        <Link to="/search" className="no-underline">
         <div className=" rounded-[39.95px] bg-black w-[240.52px] h-[76.71px] flex flex-row box-border items-center justify-center text-[28.77px] text-white">
           <div className="relative font-medium font-poppins">Search Now</div>
         </div>

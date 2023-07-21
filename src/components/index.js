@@ -5,6 +5,8 @@ import Logo from "./Logo";
 import HowItWorks from "./HowItWorks";
 import JobCard from "./JobCard";
 import SearchPage from "./SearchPage";
+import ExpandedJobCard from "./ExpandedJobCard";
+import ContactPopup from "./ContactPopup";
 
 
 
@@ -16,4 +18,6 @@ export {
   HowItWorks,
   JobCard,
   SearchPage,
+  ExpandedJobCard,
+  ContactPopup,
 };
